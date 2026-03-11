@@ -1,0 +1,12 @@
+{
+    "secondary_email": "alerts@yourdomain.com",
+    "smtp_email": "alerts@yourdomain.com",
+    "smtp_host": "smtp.yourprovider.com",
+    "smtp_port": 587,
+    "smtp_tls_mode": "starttls",
+    "smtp_username": "alerts@yourdomain.com",
+    "smtp_from": "alerts@yourdomain.com",
+    "tunnel_url": "https://your-tunnel.example.com/log",
+    "listen_port": 8080,
+    "notes": "Set GPSD_SMTP_PASSWORD in environment before starting beacon_receiver.py"
+}

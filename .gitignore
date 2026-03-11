@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local runtime/security data
+.gpsdefense_data/
+*.db
+*.log
+evidence/
+receiver_run.log
+tunnel_run.log
+sys_integrity.log
+
+# Local config and secrets
+receiver_config.json
+.env
+.env.*
+*SMTP_PASSWORD*
+*TUNNEL_TOKEN*
+
+# OS / editor
+.DS_Store
+Thumbs.db
